@@ -36,3 +36,5 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPola
 34,GM20RP,467.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,,,,,
 35,GM21RP,467.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,,,,,
 36,GM22RP,467.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,,,,,
+37,WW7PSR,146.960000,-,0.600000,Tone,103.5,103.5,023,NN,FM,5.00,,"Seattle, Capitol Hill",,,,
+38,WA7FUS,224.220000,-,1.600000,Tone,103.5,88.5,023,NN,FM,5.00,,Lake Forest Park,,,,
