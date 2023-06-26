@@ -963,17 +963,17 @@
     </Channel>
   </Channels_VFO>
   <FMFreqs>
-    <FMFreq freqIndex="0">102.5</FMFreq>
-    <FMFreq freqIndex="1">103.7</FMFreq>
-    <FMFreq freqIndex="2">96.5</FMFreq>
-    <FMFreq freqIndex="3">107.7</FMFreq>
-    <FMFreq freqIndex="4">88.5</FMFreq>
-    <FMFreq freqIndex="5">90.3</FMFreq>
-    <FMFreq freqIndex="6">92.5</FMFreq>
-    <FMFreq freqIndex="7">93.3</FMFreq>
-    <FMFreq freqIndex="8">95.7</FMFreq>
-    <FMFreq freqIndex="9">99.9</FMFreq>
-    <FMFreq freqIndex="10">101.5</FMFreq>
+    <FMFreq freqIndex="0">88.5</FMFreq>
+    <FMFreq freqIndex="1">90.3</FMFreq>
+    <FMFreq freqIndex="2">92.5</FMFreq>
+    <FMFreq freqIndex="3">93.3</FMFreq>
+    <FMFreq freqIndex="4">95.7</FMFreq>
+    <FMFreq freqIndex="5">96.5</FMFreq>
+    <FMFreq freqIndex="6">99.9</FMFreq>
+    <FMFreq freqIndex="7">101.5</FMFreq>
+    <FMFreq freqIndex="8">102.5</FMFreq>
+    <FMFreq freqIndex="9">103.7</FMFreq>
+    <FMFreq freqIndex="10">107.7</FMFreq>
   </FMFreqs>
   <ScanLists>
     <DefaultListIndex>0</DefaultListIndex>
