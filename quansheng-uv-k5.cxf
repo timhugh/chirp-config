@@ -23,7 +23,7 @@
     <Language>1</Language>
     <BeepFlag>0</BeepFlag>
     <AutoKeyLock>0</AutoKeyLock>
-    <ScanRestore>2</ScanRestore>
+    <ScanRestore>0</ScanRestore>
     <WelcomeDisplay>1</WelcomeDisplay>
     <AlarmType>0</AlarmType>
     <OverTone>0</OverTone>
@@ -126,10 +126,78 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="OLY3" chanIndex="3">
+    <Channel Name="PA" chanIndex="3">
       <BandWidth>0</BandWidth>
-      <TxFreq>467.625</TxFreq>
-      <RxFreq>462.625</RxFreq>
+      <TxFreq>467.575</TxFreq>
+      <RxFreq>462.575</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>13</AnaTxCTCIndex>
+      <AnaRxCTCIndex>13</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="ORCAS" chanIndex="4">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.575</TxFreq>
+      <RxFreq>462.575</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>12</AnaTxCTCIndex>
+      <AnaRxCTCIndex>12</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="MASON" chanIndex="5">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.675</TxFreq>
+      <RxFreq>462.675</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>18</AnaTxCTCIndex>
+      <AnaRxCTCIndex>12</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="BHAM" chanIndex="6">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.55</TxFreq>
+      <RxFreq>462.55</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>24</AnaTxCTCIndex>
+      <AnaRxCTCIndex>24</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="SNOHO" chanIndex="7">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.725</TxFreq>
+      <RxFreq>462.725</RxFreq>
       <TxPowerLevel>2</TxPowerLevel>
       <AnaTxCTCFlag>1</AnaTxCTCFlag>
       <AnaRxCTCFlag>1</AnaRxCTCFlag>
@@ -143,7 +211,75 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="WW7PSR" chanIndex="4">
+    <Channel Name="ECHO LAKE" chanIndex="8">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.575</TxFreq>
+      <RxFreq>462.575</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>2</AnaTxCTCFlag>
+      <AnaRxCTCFlag>2</AnaRxCTCFlag>
+      <AnaTxCTCIndex>31</AnaTxCTCIndex>
+      <AnaRxCTCIndex>31</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="BOTHELL" chanIndex="9">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.65</TxFreq>
+      <RxFreq>462.65</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>24</AnaTxCTCIndex>
+      <AnaRxCTCIndex>24</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="LFP" chanIndex="10">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.725</TxFreq>
+      <RxFreq>462.725</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>22</AnaTxCTCIndex>
+      <AnaRxCTCIndex>22</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="NSEA" chanIndex="11">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.675</TxFreq>
+      <RxFreq>462.675</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>22</AnaTxCTCIndex>
+      <AnaRxCTCIndex>22</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="WW7PSR" chanIndex="12">
       <BandWidth>0</BandWidth>
       <TxFreq>146.36</TxFreq>
       <RxFreq>146.96</RxFreq>
@@ -160,7 +296,177 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="R1" chanIndex="5">
+    <Channel Name="CAPHILL" chanIndex="13">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.6</TxFreq>
+      <RxFreq>462.6</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>22</AnaTxCTCIndex>
+      <AnaRxCTCIndex>22</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="OLY3" chanIndex="14">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.625</TxFreq>
+      <RxFreq>462.625</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>22</AnaTxCTCIndex>
+      <AnaRxCTCIndex>22</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="LAKEWOOD" chanIndex="15">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.55</TxFreq>
+      <RxFreq>462.55</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>22</AnaTxCTCIndex>
+      <AnaRxCTCIndex>22</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="OLYMPIA" chanIndex="16">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.6</TxFreq>
+      <RxFreq>462.6</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>22</AnaTxCTCIndex>
+      <AnaRxCTCIndex>22</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="LONGVIEW" chanIndex="17">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.65</TxFreq>
+      <RxFreq>462.65</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>16</AnaTxCTCIndex>
+      <AnaRxCTCIndex>16</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="GRESHAM" chanIndex="18">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.7</TxFreq>
+      <RxFreq>462.7</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>42</AnaTxCTCIndex>
+      <AnaRxCTCIndex>42</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="MT SI" chanIndex="19">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.7</TxFreq>
+      <RxFreq>462.7</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>13</AnaTxCTCIndex>
+      <AnaRxCTCIndex>13</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="ELLENSBURG" chanIndex="20">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.725</TxFreq>
+      <RxFreq>462.725</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>1</AnaTxCTCIndex>
+      <AnaRxCTCIndex>1</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="WENATCHEE" chanIndex="21">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.575</TxFreq>
+      <RxFreq>462.575</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>22</AnaTxCTCIndex>
+      <AnaRxCTCIndex>22</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="YAKIMA" chanIndex="22">
+      <BandWidth>0</BandWidth>
+      <TxFreq>467.7</TxFreq>
+      <RxFreq>462.7</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>1</AnaTxCTCFlag>
+      <AnaRxCTCFlag>1</AnaRxCTCFlag>
+      <AnaTxCTCIndex>22</AnaTxCTCIndex>
+      <AnaRxCTCIndex>22</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="R1" chanIndex="23">
       <BandWidth>1</BandWidth>
       <TxFreq>462.5625</TxFreq>
       <RxFreq>462.5625</RxFreq>
@@ -177,7 +483,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="R2" chanIndex="6">
+    <Channel Name="R2" chanIndex="24">
       <BandWidth>1</BandWidth>
       <TxFreq>462.5875</TxFreq>
       <RxFreq>462.5875</RxFreq>
@@ -194,7 +500,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="R3" chanIndex="7">
+    <Channel Name="R3" chanIndex="25">
       <BandWidth>1</BandWidth>
       <TxFreq>462.6125</TxFreq>
       <RxFreq>462.6125</RxFreq>
@@ -211,7 +517,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="R4" chanIndex="8">
+    <Channel Name="R4" chanIndex="26">
       <BandWidth>1</BandWidth>
       <TxFreq>462.6375</TxFreq>
       <RxFreq>462.6375</RxFreq>
@@ -228,7 +534,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="R5" chanIndex="9">
+    <Channel Name="R5" chanIndex="27">
       <BandWidth>1</BandWidth>
       <TxFreq>462.6625</TxFreq>
       <RxFreq>462.6625</RxFreq>
@@ -245,7 +551,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="R6" chanIndex="10">
+    <Channel Name="R6" chanIndex="28">
       <BandWidth>1</BandWidth>
       <TxFreq>462.625</TxFreq>
       <RxFreq>462.625</RxFreq>
@@ -262,7 +568,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="R7" chanIndex="11">
+    <Channel Name="R7" chanIndex="29">
       <BandWidth>1</BandWidth>
       <TxFreq>462.725</TxFreq>
       <RxFreq>462.725</RxFreq>
@@ -279,7 +585,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="R8" chanIndex="12">
+    <Channel Name="R8" chanIndex="30">
       <BandWidth>1</BandWidth>
       <TxFreq>462.6875</TxFreq>
       <RxFreq>462.6875</RxFreq>
@@ -296,7 +602,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="R9" chanIndex="13">
+    <Channel Name="R9" chanIndex="31">
       <BandWidth>1</BandWidth>
       <TxFreq>462.7125</TxFreq>
       <RxFreq>462.7125</RxFreq>
@@ -313,7 +619,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="R10" chanIndex="14">
+    <Channel Name="R10" chanIndex="32">
       <BandWidth>1</BandWidth>
       <TxFreq>462.55</TxFreq>
       <RxFreq>462.55</RxFreq>
@@ -330,9 +636,94 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
+    <Channel Name="MURS1" chanIndex="33">
+      <BandWidth>1</BandWidth>
+      <TxFreq>151.82</TxFreq>
+      <RxFreq>151.82</RxFreq>
+      <TxPowerLevel>0</TxPowerLevel>
+      <AnaTxCTCFlag>0</AnaTxCTCFlag>
+      <AnaRxCTCFlag>0</AnaRxCTCFlag>
+      <AnaTxCTCIndex>0</AnaTxCTCIndex>
+      <AnaRxCTCIndex>0</AnaRxCTCIndex>
+      <FreqStep>0</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="MURS2" chanIndex="34">
+      <BandWidth>1</BandWidth>
+      <TxFreq>151.88</TxFreq>
+      <RxFreq>151.88</RxFreq>
+      <TxPowerLevel>0</TxPowerLevel>
+      <AnaTxCTCFlag>0</AnaTxCTCFlag>
+      <AnaRxCTCFlag>0</AnaRxCTCFlag>
+      <AnaTxCTCIndex>0</AnaTxCTCIndex>
+      <AnaRxCTCIndex>0</AnaRxCTCIndex>
+      <FreqStep>0</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="MURS3" chanIndex="35">
+      <BandWidth>1</BandWidth>
+      <TxFreq>151.94</TxFreq>
+      <RxFreq>151.94</RxFreq>
+      <TxPowerLevel>0</TxPowerLevel>
+      <AnaTxCTCFlag>0</AnaTxCTCFlag>
+      <AnaRxCTCFlag>0</AnaRxCTCFlag>
+      <AnaTxCTCIndex>0</AnaTxCTCIndex>
+      <AnaRxCTCIndex>0</AnaRxCTCIndex>
+      <FreqStep>0</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="MURS4" chanIndex="36">
+      <BandWidth>0</BandWidth>
+      <TxFreq>154.57</TxFreq>
+      <RxFreq>154.57</RxFreq>
+      <TxPowerLevel>0</TxPowerLevel>
+      <AnaTxCTCFlag>0</AnaTxCTCFlag>
+      <AnaRxCTCFlag>0</AnaRxCTCFlag>
+      <AnaTxCTCIndex>0</AnaTxCTCIndex>
+      <AnaRxCTCIndex>0</AnaRxCTCIndex>
+      <FreqStep>0</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="MURS5" chanIndex="37">
+      <BandWidth>0</BandWidth>
+      <TxFreq>154.6</TxFreq>
+      <RxFreq>154.6</RxFreq>
+      <TxPowerLevel>0</TxPowerLevel>
+      <AnaTxCTCFlag>0</AnaTxCTCFlag>
+      <AnaRxCTCFlag>0</AnaRxCTCFlag>
+      <AnaTxCTCIndex>0</AnaTxCTCIndex>
+      <AnaRxCTCIndex>0</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>1</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
   </Channels_MR>
   <Channels_VFO>
-    <Channel Name="" chanIndex="0">
+    <Channel Name="F1(50M-76M)A" chanIndex="0">
       <BandWidth>0</BandWidth>
       <TxFreq>50</TxFreq>
       <RxFreq>50</RxFreq>
@@ -349,7 +740,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="1">
+    <Channel Name="F1(50M-76M)B" chanIndex="1">
       <BandWidth>0</BandWidth>
       <TxFreq>50</TxFreq>
       <RxFreq>50</RxFreq>
@@ -368,8 +759,8 @@
     </Channel>
     <Channel Name="F2(108M-136M)A" chanIndex="2">
       <BandWidth>0</BandWidth>
-      <TxFreq>123</TxFreq>
-      <RxFreq>123</RxFreq>
+      <TxFreq>125</TxFreq>
+      <RxFreq>125</RxFreq>
       <TxPowerLevel>2</TxPowerLevel>
       <AnaTxCTCFlag>0</AnaTxCTCFlag>
       <AnaRxCTCFlag>0</AnaRxCTCFlag>
@@ -385,8 +776,8 @@
     </Channel>
     <Channel Name="F2(108M-136M)B" chanIndex="3">
       <BandWidth>1</BandWidth>
-      <TxFreq>600</TxFreq>
-      <RxFreq>600</RxFreq>
+      <TxFreq>122.7</TxFreq>
+      <RxFreq>122.7</RxFreq>
       <TxPowerLevel>2</TxPowerLevel>
       <AnaTxCTCFlag>0</AnaTxCTCFlag>
       <AnaRxCTCFlag>0</AnaRxCTCFlag>
@@ -397,10 +788,27 @@
       <EncryptFlag>0</EncryptFlag>
       <BusyNoTx>1</BusyNoTx>
       <PTTIdFlag>3</PTTIdFlag>
-      <DTMFDecode>1</DTMFDecode>
+      <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>1</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="4">
+    <Channel Name="F3(136M-174M)A" chanIndex="4">
+      <BandWidth>0</BandWidth>
+      <TxFreq>146.5</TxFreq>
+      <RxFreq>146.5</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>0</AnaTxCTCFlag>
+      <AnaRxCTCFlag>0</AnaRxCTCFlag>
+      <AnaTxCTCIndex>0</AnaTxCTCIndex>
+      <AnaRxCTCIndex>0</AnaRxCTCIndex>
+      <FreqStep>5</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>0</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="F3(136M-174M)B" chanIndex="5">
       <BandWidth>0</BandWidth>
       <TxFreq>136</TxFreq>
       <RxFreq>136</RxFreq>
@@ -417,24 +825,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="5">
-      <BandWidth>0</BandWidth>
-      <TxFreq>136</TxFreq>
-      <RxFreq>136</RxFreq>
-      <TxPowerLevel>2</TxPowerLevel>
-      <AnaTxCTCFlag>0</AnaTxCTCFlag>
-      <AnaRxCTCFlag>0</AnaRxCTCFlag>
-      <AnaTxCTCIndex>0</AnaTxCTCIndex>
-      <AnaRxCTCIndex>0</AnaRxCTCIndex>
-      <FreqStep>5</FreqStep>
-      <FreqReverseFlag>0</FreqReverseFlag>
-      <EncryptFlag>0</EncryptFlag>
-      <BusyNoTx>0</BusyNoTx>
-      <PTTIdFlag>0</PTTIdFlag>
-      <DTMFDecode>0</DTMFDecode>
-      <AMChanFlag>0</AMChanFlag>
-    </Channel>
-    <Channel Name="" chanIndex="6">
+    <Channel Name="F4(174M-350M)A" chanIndex="6">
       <BandWidth>0</BandWidth>
       <TxFreq>174</TxFreq>
       <RxFreq>174</RxFreq>
@@ -451,7 +842,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="7">
+    <Channel Name="F4(174M-350M)B" chanIndex="7">
       <BandWidth>0</BandWidth>
       <TxFreq>174</TxFreq>
       <RxFreq>174</RxFreq>
@@ -468,7 +859,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="8">
+    <Channel Name="F5(350M-400M)A" chanIndex="8">
       <BandWidth>0</BandWidth>
       <TxFreq>350</TxFreq>
       <RxFreq>350</RxFreq>
@@ -485,7 +876,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="9">
+    <Channel Name="F5(350M-400M)B" chanIndex="9">
       <BandWidth>0</BandWidth>
       <TxFreq>350</TxFreq>
       <RxFreq>350</RxFreq>
@@ -504,8 +895,8 @@
     </Channel>
     <Channel Name="F6(400M-470M)A" chanIndex="10">
       <BandWidth>0</BandWidth>
-      <TxFreq>400</TxFreq>
-      <RxFreq>400</RxFreq>
+      <TxFreq>446</TxFreq>
+      <RxFreq>446</RxFreq>
       <TxPowerLevel>2</TxPowerLevel>
       <AnaTxCTCFlag>0</AnaTxCTCFlag>
       <AnaRxCTCFlag>0</AnaRxCTCFlag>
@@ -521,14 +912,14 @@
     </Channel>
     <Channel Name="F6(400M-470M)B" chanIndex="11">
       <BandWidth>1</BandWidth>
-      <TxFreq>600</TxFreq>
-      <RxFreq>600</RxFreq>
+      <TxFreq>462.7125</TxFreq>
+      <RxFreq>462.7125</RxFreq>
       <TxPowerLevel>2</TxPowerLevel>
       <AnaTxCTCFlag>0</AnaTxCTCFlag>
       <AnaRxCTCFlag>0</AnaRxCTCFlag>
       <AnaTxCTCIndex>0</AnaTxCTCIndex>
       <AnaRxCTCIndex>0</AnaRxCTCIndex>
-      <FreqStep>5</FreqStep>
+      <FreqStep>4</FreqStep>
       <FreqReverseFlag>1</FreqReverseFlag>
       <EncryptFlag>0</EncryptFlag>
       <BusyNoTx>1</BusyNoTx>
@@ -536,7 +927,7 @@
       <DTMFDecode>1</DTMFDecode>
       <AMChanFlag>1</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="12">
+    <Channel Name="F7(470M-600M)A" chanIndex="12">
       <BandWidth>0</BandWidth>
       <TxFreq>470</TxFreq>
       <RxFreq>470</RxFreq>
@@ -553,7 +944,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="13">
+    <Channel Name="F7(470M-600M)B" chanIndex="13">
       <BandWidth>0</BandWidth>
       <TxFreq>470</TxFreq>
       <RxFreq>470</RxFreq>
@@ -586,17 +977,17 @@
   </FMFreqs>
   <ScanLists>
     <DefaultListIndex>0</DefaultListIndex>
-    <ScanList Name="Scan list 1" listIndex="0">
+    <ScanList Name="" listIndex="0">
       <PriChannelScanEnable>False</PriChannelScanEnable>
-      <PriChannelIndex1>-1</PriChannelIndex1>
-      <PriChannelIndex2>-1</PriChannelIndex2>
-      <ChanIndexes>201|205</ChanIndexes>
+      <PriChannelIndex1>255</PriChannelIndex1>
+      <PriChannelIndex2>255</PriChannelIndex2>
+      <ChanIndexes>201|202|205</ChanIndexes>
     </ScanList>
-    <ScanList Name="Scan list 2" listIndex="1">
+    <ScanList Name="" listIndex="1">
       <PriChannelScanEnable>False</PriChannelScanEnable>
-      <PriChannelIndex1>-1</PriChannelIndex1>
-      <PriChannelIndex2>-1</PriChannelIndex2>
-      <ChanIndexes>201|205</ChanIndexes>
+      <PriChannelIndex1>255</PriChannelIndex1>
+      <PriChannelIndex2>255</PriChannelIndex2>
+      <ChanIndexes>201|202|205</ChanIndexes>
     </ScanList>
   </ScanLists>
 </DevicePara>
