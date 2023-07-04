@@ -17,7 +17,7 @@
     <FastCallChannel>0</FastCallChannel>
     <MicSensitiveLevel>4</MicSensitiveLevel>
     <DoubleWaitFlag>0</DoubleWaitFlag>
-    <SQLLevel>1</SQLLevel>
+    <SQLLevel>0</SQLLevel>
     <BandDiffRxTx>0</BandDiffRxTx>
     <KeyToneFlag>0</KeyToneFlag>
     <Language>1</Language>
